@@ -1,0 +1,23 @@
+// @import "../node_modules/normalize.scss/normalize.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+@import "global/fonts.scss";
+
+@import "blocks/bestsellers.scss";
+@import "blocks/body.scss";
+@import "blocks/button.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer.scss";
+@import "blocks/hide-layout.scss";
+@import "blocks/main-header.scss";
+@import "blocks/main-menu.scss";
+@import "blocks/map.scss";
+@import "blocks/new.scss";
+@import "blocks/popup.scss";
+@import "blocks/promo.scss";
+@import "blocks/seo.scss";
+@import "blocks/slider.scss";
+@import "blocks/tabs.scss";
+@import "blocks/user-block.scss";
+@import "blocks/white-links.scss";

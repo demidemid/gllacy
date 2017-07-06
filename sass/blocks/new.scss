@@ -1,0 +1,88 @@
+.new {
+  font-size: 0;
+  padding: 34px 0px;
+  padding-left: 20px;
+}
+
+.new__card {
+  display: inline-block;
+  width: 420px;
+  height: 229px;
+  padding: 20px;
+  padding-top: 27px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: top;
+
+  &--new {
+    background-image: url("../img/bg_strawberry.png");
+  }
+
+  &--subscrible {
+    padding: 10px 6px;
+    background-image: url("../img/bg_post.png");
+  }
+}
+
+.new__subtitle {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.new__title-link {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #353535;
+  background-color: rgba(255, 255, 255, .52);
+
+  &:hover {
+    color: #ff6633;
+  }
+
+  &:active {
+    color: #ff6633;
+  }
+}
+
+.new__card-real-bg {
+  display: inline-block;
+  width: 408px;
+  height: 210px;
+  padding: 30px 20px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  background-color: #f8f7f4;
+  border-radius: 10px;
+}
+
+.new__subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+.new__form {
+  margin-top: 10px;
+}
+
+.new__email {
+  width: 229px;
+  height: 44px;
+  border: 1px solid #d3d3d2;
+  border-radius: 5px;
+  margin-right: 13px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.new__button {
+  width: 124px;
+  height: 45px;
+}

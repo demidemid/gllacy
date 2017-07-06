@@ -1,0 +1,63 @@
+.seo {
+  display: block;
+  width: 860px;
+  height: 372px;
+  padding: 27px 18px;
+  margin-left: 20px;
+  color: #323232;
+  background-image: url("../img/bg_waffle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.seo__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.seo__text {
+  display: inline-block;
+  position: relative;
+  width: 410px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  padding-left: 60px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 49px;
+    height: 49px;
+
+    top: -13px;
+    left: 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--icecream::before {
+    background-image: url("../img/icon_icecream.png");
+  }
+
+  &--leaf::before {
+    background-image: url("../img/icon_leaf.png");
+  }
+
+  &--cow::before {
+    background-image: url("../img/icon_cow.png");
+  }
+
+  &--thermometer::before {
+    background-image: url("../img/icon_thermometer.png");
+  }
+}

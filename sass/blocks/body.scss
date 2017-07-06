@@ -1,0 +1,11 @@
+.body {
+  font-family: $basic-font-family;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #859f91;
+  color: #ffffff;
+
+  // @media #{$desktop-widths} {
+  //   width: 1200px;
+  // }
+}

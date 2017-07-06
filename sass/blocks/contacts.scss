@@ -1,0 +1,49 @@
+.contacts {
+  position: absolute;
+  width: 302px;
+  height: 305px;
+
+  top: 62px;
+  right: 20px;
+
+  background-color: #fefefe;
+  color: #323232;
+  border-radius: 17px;
+  padding: 30px 25px;
+  box-sizing: border-box;
+}
+
+.contacts__text {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+
+  &--short-block {
+    width: 150px;
+  }
+
+  &--address {
+    width: 225px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-bottom: 18px;
+  }
+
+  &--telephone {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  &--time {
+    margin-bottom: 25px;
+  }
+}
+
+.contacts__button {
+  width: 242px;
+  height: 45px;
+  margin-left: 5px;
+}

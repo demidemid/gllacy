@@ -1,0 +1,49 @@
+.bestsellers {
+  padding-left: 20px;
+  font-size: 0;
+}
+
+.bestsellers__item {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  min-height: 320px;
+  margin-right: 20px;
+  padding-top: 40px;
+  vertical-align: top;
+}
+
+.bestsellers__hit {
+  display: inline-block;
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  font-size: 0px;
+  background-image: url("../img/hit_icon.png");
+}
+
+.bestsellers__price {
+  position: absolute;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+
+  top: 180px;
+  left: 0;
+
+  &--kg {
+    font-size: 30px;
+  }
+}
+
+.bestsellers__text {
+  display: block;
+  width: 190px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

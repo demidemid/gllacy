@@ -1,0 +1,13 @@
+.tabs {
+  display: block;
+  width: 900px;
+  height: 578px;
+}
+
+.tabs ul li.active, .tabs ul li.active:hover {
+  background: #ffffff;
+}
+
+.tabs ul li:hover {
+  background: rgba(255, 255, 255, .4);
+}
